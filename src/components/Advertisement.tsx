@@ -2,7 +2,9 @@ interface AdvertisementProps {
   companyName: string;
   productDescription: string;
   price: string;
-};
+}
+
+// const thisIsNeverUsed = "oatmeal raisin cookie";
 
 function Advertisement(props: AdvertisementProps) {
   return (
