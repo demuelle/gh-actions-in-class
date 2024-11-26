@@ -4,7 +4,7 @@ interface AdvertisementProps {
   price: string;
 }
 
-const thisIsNeverUsed = "oatmeal raisin cookie";
+// const thisIsNeverUsed = "oatmeal raisin cookie";
 
 function Advertisement(props: AdvertisementProps) {
   return (
